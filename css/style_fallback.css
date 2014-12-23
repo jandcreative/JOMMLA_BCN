@@ -1,0 +1,1623 @@
+
+body {
+    overflow-x: hidden;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    color: #424242;
+    font-family: 'ProximaNova';
+    font-weight: normal;
+}
+div, li {
+    position: relative;
+}
+a {
+    color: #FFFFFF;
+    transition: color 0.25s ease 0s;
+}
+a:hover {
+    color: #999999;
+}
+.footer a:hover span, .footer a span {
+    backface-visibility: hidden;
+    color: #FFFFFF !important;
+}
+p {
+    font-size: 1.01em !important;
+}
+.kontakt .logotyp, .kontakt .right-menu li a, .blogg-jobb .logotyp, .blogg-jobb .right-menu li a {
+    color: #424242 !important;
+}
+.logotyp {
+    margin-top: 0.2em !important;
+}
+#nav ul li .logotyp {
+    color: #FFFFFF !important;
+}
+.icons-ul {
+    list-style-type: none;
+    margin-left: 2.14286em;
+}
+.fallback .landscape, .fallback .portrait, .fallback .landscape-medium, .fallback .portrait-medium {
+    display: none;
+}
+.device-contact {
+    display: none;
+}
+#map_canvas_malmo, #map_canvas_vaxjo {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.block {
+    padding: 10px 0 0 !important;
+}
+.hero h1 > em {
+    font-family: 'ProximaNovaThin' !important;
+    font-style: normal !important;
+}
+.page-item-19, .page-item-2, #nav .page-item-19 {
+    display: none !important;
+}
+.backface {
+    backface-visibility: hidden;
+}
+.liten {
+    display: inline-block;
+    font-size: 0.3em !important;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    vertical-align: middle;
+}
+.button-group {
+    margin: 0 0 3em;
+}
+button:focus {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    outline: medium none;
+}
+.work-process-mobile .large-3 {
+    background: none repeat scroll 0 0 #9AB5BC;
+}
+.work-process h4 {
+    margin-top: 16px;
+}
+.work-process .text-overlay {
+    background: none repeat scroll 0 0 #A1BDC4;
+    border-radius: 5px;
+    bottom: auto;
+    color: #FFFFFF;
+    font-size: 16px;
+    left: -20px;
+    line-height: 22px;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    transform: scale(0.5);
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+.work-process .large-3:hover .text-overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+.work-process .large-3 > img {
+    transition: all 0.3s ease 0s;
+}
+.work-process .large-3:hover > img {
+    transform: scale(0.5);
+}
+.work-process .large-3:hover > h4 {
+    opacity: 0;
+}
+.facts-block-sep {
+    display: inline-block;
+    width: 100% !important;
+}
+.facts-block .anstallda-persons {
+    background: none repeat scroll 0 0 #E97156;
+}
+.facts-block .anstallda-persons .icon-Person_2, .facts-block .anstallda-persons .icon-Person_1 {
+    color: #FEEBDD;
+    font-size: 7em;
+}
+.facts-block .anstallda-persons:hover .icon-Person_1:after {
+    opacity: 1;
+}
+.facts-block .anstallda-persons:hover .icon-Person_2:after {
+    opacity: 1;
+}
+.facts-block .anstallda-persons .icon-Person_1:after {
+    color: #444545;
+    content: "";
+    font-size: 0.2em !important;
+    height: 1px;
+    left: 26%;
+    opacity: 0;
+    position: absolute;
+    top: 34px;
+    transition: opacity 1s ease-in-out 0s;
+    width: 1px;
+}
+.facts-block .anstallda-persons .icon-Person_2:after {
+    color: #444545;
+    content: "";
+    font-size: 0.8em !important;
+    height: 1px;
+    left: 9.6%;
+    opacity: 0;
+    position: absolute;
+    top: 9px;
+    transition: opacity 1s ease-in-out 0s;
+    width: 1px;
+}
+.facts-block .anstallda-persons li {
+    display: inline-block;
+}
+.facts-block .anstallda-persons ul {
+    margin-bottom: 0;
+    padding: 3em 0;
+}
+.facts-block .anstallda-persons h2, .facts-block .anstallda-persons h5 {
+    color: #FEEBDD;
+}
+.facts-block .sprak {
+    overflow: hidden;
+    padding-bottom: 1.8em;
+    padding-top: 2em;
+}
+.facts-block .skola {
+    background: none repeat scroll 0 0 #38AC8D;
+}
+.facts-block .sprak {
+    background: none repeat scroll 0 0 #98B4BF;
+}
+.facts-block .sprak ul {
+    color: #98B4BF;
+    left: 70px;
+    position: absolute;
+    top: 2em;
+    transform: scale(0);
+}
+.facts-block .sprak ul li {
+    list-style: none outside none;
+    position: relative;
+}
+.language {
+    width: 500px;
+}
+.facts-block .sprak:hover ul {
+    animation: 4s ease 0s normal none infinite right-to-left;
+}
+.facts-block .skola {
+    padding: 5em 0 4em;
+}
+.facts-block .sprak h2, .facts-block .sprak h5 {
+    color: #D8E3E1;
+}
+.facts-block .skola h2, .facts-block .skola h5 {
+    color: #FFFFFF;
+}
+.facts-block .skola span {
+    color: #1F7A62;
+    font-size: 4em;
+}
+.facts-block .skola:hover .icon-Business_Graduation_cap_icon:before {
+    animation: 3s ease 0s normal none infinite spin-2;
+}
+.facts-block .apple {
+    background: none repeat scroll 0 0 #E97156;
+    padding: 2.2em 0;
+}
+.facts-block .apple {
+    overflow: hidden;
+    position: relative;
+}
+.facts-block .apple .pc-step {
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    top: 2.2em;
+}
+.facts-block .apple .apple-step h2, .facts-block .apple .apple-step h5, .facts-block .apple .apple-step span, .facts-block .apple .pc-step h2, .facts-block .apple .pc-step h5, .facts-block .apple .pc-step span {
+    color: #FEEBDD;
+}
+.facts-block .apple .apple-step h5, .facts-block .apple .pc-step h5 {
+    padding-bottom: 0;
+}
+.facts-block .apple .apple-step, .facts-block .apple .pc-step {
+    transition: all 1s ease 0s;
+}
+.facts-block .apple .apple-step span, .facts-block .apple .pc-step span {
+    font-size: 2em;
+}
+.facts-block .apple .pc-step {
+    transform: scale(0) translateX(80%) translateY(-150%);
+}
+.facts-block .apple:hover .apple-step {
+    transform: scale(0) translateX(-80%) translateY(150%);
+}
+.facts-block .apple:hover .pc-step {
+    transform: scale(1) translateX(0%) translateY(0%);
+}
+.facts-block .korv {
+    background: none repeat scroll 0 0 #868686;
+    padding: 2em 0 1em;
+}
+.facts-block .djur {
+    background: none repeat scroll 0 0 #868686;
+    padding: 3em 0 2em;
+}
+.facts-block .vanster-hoger {
+    background: none repeat scroll 0 0 #B5C6D5;
+    padding: 6em 0 5em;
+}
+.facts-block .vanster-hoger h2, .facts-block .vanster-hoger h5 {
+    color: #FFFFFF;
+}
+.facts-block .vanster-hoger span {
+    color: #49536B;
+    font-size: 4em;
+}
+.facts-block .vanster-hoger li {
+    display: inline-block;
+    margin: 0 1em;
+}
+.facts-block .vanster-hoger:hover .icon-point-left:before {
+    animation: 1s ease 0s normal none infinite poke;
+}
+.facts-block .vanster-hoger:hover .icon-point-up:before {
+    animation: 1s ease 0.5s normal none infinite poke;
+}
+.facts-block .korv h2, .facts-block .korv h5, .facts-block .korv span, .facts-block .djur h2, .facts-block .djur h5, .facts-block .djur span {
+    color: #F6F2E9;
+}
+.facts-block .korv span {
+    font-size: 3em;
+}
+.facts-block .djur span {
+    font-size: 5em;
+}
+.facts-block .djur .step-2 {
+    font-size: 2em;
+    left: 150px;
+    position: absolute;
+    top: 60px;
+}
+.facts-block .djur .step-3 {
+    font-size: 2em;
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}
+.facts-block .djur .step-2.icon-Paw_Animal_Rights_symbol_:before, .facts-block .djur .step-3.icon-Paw_Animal_Rights_symbol_:before {
+    opacity: 0;
+}
+.facts-block .djur .icon-Paw_Animal_Rights_symbol_:before {
+    transition: all 1s ease 0s;
+}
+.facts-block .djur:hover .step-1.icon-Paw_Animal_Rights_symbol_:before {
+    animation: 3s ease 1s normal none infinite steps;
+    transform: scale(0.5) rotate(6deg) translateX(-80%) translateY(150%);
+}
+.facts-block .djur:hover .step-2.icon-Paw_Animal_Rights_symbol_:before {
+    animation: 3s ease 1.5s normal none infinite steps;
+}
+.facts-block .djur:hover .step-3.icon-Paw_Animal_Rights_symbol_:before {
+    animation: 3s ease 2s normal none infinite steps;
+}
+.facts-block .korv:hover .icon-sausage_4x:before {
+    animation: 0.5s ease 0s normal none infinite spin;
+}
+.facts-block .glasogon {
+    background: none repeat scroll 0 0 #38AC8D;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+.facts-block .glasogon h5, .facts-block .korv h5, .facts-block .flower h5 {
+    line-height: 1.2em;
+    padding-bottom: 0.5em;
+}
+.facts-block .glasogon span {
+    color: #1F7A62;
+}
+.facts-block .glasogon h2, .facts-block .glasogon h5 {
+    color: #FFFFFF;
+}
+.facts-block .glasogon span {
+    font-size: 2em;
+}
+.facts-block .glasogon:hover .icon-glasses:before {
+    animation: 1.6s ease-out 0s normal none infinite bigEntrance;
+    visibility: visible !important;
+}
+.facts-block .revenue {
+    background: none repeat scroll 0 0 #F6F2E9;
+    padding: 3em 0 0.88em;
+}
+.facts-block .revenue span.step-0 {
+    border: 3px solid #868686;
+    display: inline-block;
+    margin: 2px;
+    position: relative;
+    width: 100%;
+}
+.facts-block .revenue span.step-1, .facts-block .revenue span.step-2, .facts-block .revenue span.step-3, .facts-block .revenue span.step-4, .facts-block .revenue span.step-5, .facts-block .revenue span.step-6, .facts-block .revenue span.step-7 {
+    border: 3px solid #868686;
+    display: inline-block;
+    margin: 2px;
+    opacity: 0;
+    position: relative;
+    width: 100%;
+}
+.facts-block .revenue span.step-7 {
+    transition: all 0.2s ease 0.1s;
+}
+.facts-block .revenue span.step-6 {
+    transition: all 0.2s ease 0.2s;
+}
+.facts-block .revenue span.step-5 {
+    transition: all 0.2s ease 0.3s;
+}
+.facts-block .revenue span.step-4 {
+    transition: all 0.2s ease 0.4s;
+}
+.facts-block .revenue span.step-3 {
+    transition: all 0.2s ease 0.5s;
+}
+.facts-block .revenue span.step-2 {
+    transition: all 0.2s ease 0.6s;
+}
+.facts-block .revenue span.step-1 {
+    transition: all 0.2s ease 0.7s;
+}
+.facts-block .revenue span.revenue-last {
+    color: #868686;
+    font-size: 5em;
+    opacity: 0;
+    position: absolute;
+    right: 40px;
+    top: -20px;
+    transition: all 0.2s ease 1s;
+}
+.facts-block .revenue:hover span.revenue-last {
+    opacity: 1;
+}
+.facts-block .revenue:hover .icon-coins_5:before {
+    animation: 2s linear 1s normal none infinite flip3D;
+    color: #868686;
+}
+.facts-block .revenue:hover span.step-1, .facts-block .revenue:hover span.step-2, .facts-block .revenue:hover span.step-3, .facts-block .revenue:hover span.step-4, .facts-block .revenue:hover span.step-5, .facts-block .revenue:hover span.step-6, .facts-block .revenue:hover span.step-7 {
+    opacity: 1;
+}
+.facts-block .revenue-container {
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+    width: 100%;
+}
+.facts-block .revenue ul li {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+.facts-block .revenue ul {
+    display: inline-block;
+    list-style: none outside none;
+    margin-bottom: 0;
+    vertical-align: bottom;
+    width: 30%;
+}
+.facts-block .revenue h2, .facts-block .revenue h5 {
+    color: #868686;
+}
+.facts-block .banan {
+    background: none repeat scroll 0 0 #39AC8D;
+    padding: 2em 0 1em;
+}
+.facts-block .banan span {
+    color: #F1C405;
+}
+.facts-block .banan h2, .facts-block .banan h5 {
+    color: #FFFFFF;
+}
+.facts-block .banan span {
+    font-size: 7em;
+}
+.facts-block .banan:hover .icon-bananas_4x:before {
+    animation: 0.5s ease 0s normal none infinite tossing;
+}
+.facts-block .coffe {
+    background: none repeat scroll 0 0 #49536B;
+    padding: 6.5em 0 1.1em;
+}
+.facts-block .coffe span {
+    color: #B5C6D5;
+}
+.facts-block .coffe h2, .facts-block .coffe h5 {
+    color: #FFFFFF;
+}
+.facts-block .coffe h2 {
+    margin-top: 1em;
+}
+.facts-block .coffe span {
+    font-size: 3em;
+}
+.facts-block .coffe span:after {
+    content: "";
+    left: 50%;
+    margin-left: -56px;
+    position: absolute;
+    top: 50px;
+}
+.facts-block .coffe:hover span:after {
+    animation: 1s ease 0s normal none infinite flip;
+}
+.facts-block .kontor {
+    background: none repeat scroll 0 0 #F6F2E9;
+    padding: 1.2em 0;
+}
+.facts-block .kontor h2, .facts-block .kontor h5 {
+    color: #868686;
+}
+.facts-block h2, .facts-block h5 {
+    line-height: 0.8em;
+    margin-bottom: 0;
+    margin-top: 0.9em;
+}
+.facts-block h5 {
+    margin-top: 0.4em;
+    padding-bottom: 1em;
+}
+.facts-block .kontor h2 {
+    margin-top: 0.15em;
+}
+.facts-block .kontor, .facts-block .anstallda-persons, .facts-block .sprak, .facts-block .glasogon, .facts-block .korv, .facts-block .apple, .facts-block .coffe, .facts-block .revenue, .facts-block .banan, .facts-block .djur, .facts-block .skola, .facts-block .vanster-hoger {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s ease 0s;
+}
+.facts-block .kontor.show, .facts-block .anstallda-persons.show, .facts-block .sprak.show, .facts-block .glasogon.show, .facts-block .korv.show, .facts-block .apple.show, .facts-block .coffe.show, .facts-block .revenue.show, .facts-block .banan.show, .facts-block .djur.show, .facts-block .skola.show, .facts-block .vanster-hoger.show {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 1s ease 0s;
+}
+.icon-Kontor_1 {
+    color: #868686;
+    font-size: 10em;
+}
+.icon-Kontor_2 {
+    color: #868686;
+    font-size: 8em;
+    left: 50%;
+    margin-left: -63px;
+    opacity: 0;
+    position: absolute;
+    top: 100px;
+    transition: all 0.5s ease 0s;
+}
+.kontor:hover .icon-Kontor_2 {
+    opacity: 1;
+    top: 34px;
+}
+.kontor:hover .icon-Kontor_1:before, .kontor:hover .icon-Kontor_2:before {
+    animation: 0.5s linear 0.4s normal none infinite shake;
+}
+.icon-Analys, .icon-Strategi, .icon-Ideer, .icon-Kommunikation, .icon-Design, .icon-Webb {
+    font-size: 7em !important;
+}
+.icon-Forsta, .icon-Formulera, .icon-Forandra {
+    color: #D8E3E1;
+    font-size: 10em;
+}
+.cl-effect-13 a {
+    transition: color 0.3s ease 0s;
+}
+.cl-effect-13 a:before {
+    color: rgba(0, 0, 0, 0);
+    content: "•";
+    font-size: 1.2em;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: 0 0 rgba(0, 0, 0, 0);
+    top: 100%;
+    transform: translateX(-50%);
+    transition: text-shadow 0.3s ease 0s, color 0.3s ease 0s;
+}
+.cl-effect-13 a:hover:before, .cl-effect-13 a:focus:before {
+    color: #FFFFFF;
+    text-shadow: 10px 0 #FFFFFF, -10px 0 #FFFFFF;
+}
+.cl-effect-13 a:hover, .cl-effect-13 a:focus {
+    color: #BA7700;
+}
+.orbit-container .orbit-timer, .paused {
+    display: none !important;
+}
+.orbit-container .orbit-timer .orbit-progress {
+    display: none;
+}
+.orbit-container .orbit-slide-number {
+    display: none;
+}
+.orbit-prev, .orbit-next {
+    display: none;
+}
+.orbit-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+h1 {
+    font-size: 7.8em;
+    line-height: 1em;
+    margin-bottom: 0.2em;
+}
+.f-medium {
+    font-size: 6em;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+.f-medium-x2 {
+    font-size: 5em;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+.f-light, .f-light h2.subheader {
+    font-family: 'ProximaNovaLight' !important;
+}
+.f-thin {
+    font-family: 'ProximaNovaThin' !important;
+}
+.text-block {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.orbit-bullets {
+    display: none;
+}
+.margin {
+    margin: 40px auto;
+    position: relative;
+    width: 100%;
+}
+.padding {
+    clear: both;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+}
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+.hr-alt {
+    border-bottom: 2px solid #000000;
+    margin: 40px auto;
+    position: relative;
+    width: 60%;
+}
+.subheader {
+    margin-bottom: 2.5em;
+}
+button, .button {
+    border-style: none;
+    border-width: 0;
+    box-shadow: none;
+    font-weight: normal;
+    transition: all 0.3s ease 0s;
+}
+button, .button.black {
+    background-color: #3C4042;
+    border: 1px solid #3C4042;
+}
+button, .button.transparent {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+}
+button, .button.transparent.black {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #3C4042;
+    color: #3C4042;
+}
+.filter .button.transparent.black:hover {
+    background-color: #3C4042;
+    color: #FFFFFF !important;
+}
+.button.transparent:hover {
+    background-color: #FFFFFF;
+    color: #3C4042 !important;
+}
+.button.black:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #3C4042 !important;
+}
+.contain-to-grid {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.hero {
+    padding: 0;
+}
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5 {
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+.hero h4 {
+    width: 60%;
+}
+.second-bkg {
+    background: none repeat scroll 0 0 #FAFAFA;
+}
+.third-bkg {
+    background: none repeat scroll 0 0 #A3C5C5;
+}
+.large-left-bottom {
+    padding-bottom: 0.9375em;
+    padding-left: 0;
+}
+.large-left-top {
+    padding-left: 0;
+}
+.h-center {
+    color: #FFFFFF;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.h-center h1, .h-center h2 {
+    color: #FFFFFF;
+}
+.h-center .button {
+    margin-top: 2em;
+}
+.h-center-wide {
+    width: 80%;
+}
+.how-we-work p {
+    margin-top: 1em;
+}
+.how-we-work h4 {
+    margin-top: 0.8em;
+}
+section {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 100%;
+}
+.no-padding-top {
+    padding-top: 0 !important;
+}
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+.kontakt .no-padding-bottom h5.subheader {
+    margin-bottom: 0;
+}
+.inline-list {
+    display: inline-block;
+}
+.about-us-top {
+    position: relative;
+}
+.about-us-page {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.quote .orbit-bullets {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.quote .orbit-bullets li {
+    display: inline-block;
+    float: none;
+}
+.about-us-top .h-text-center {
+    left: 20%;
+    width: 60%;
+}
+.quote .orbit-slides-container li h2:before {
+    color: #D7E2E0;
+    content: "";
+    display: inline-block;
+    font-family: givakt-icons;
+    margin-right: 10px;
+    vertical-align: 8px;
+}
+.quote .orbit-slides-container li h2:after {
+    color: #D7E2E0;
+    content: "";
+    display: inline-block;
+    font-family: givakt-icons;
+    margin-left: 10px;
+    vertical-align: -14px;
+}
+.quote .orbit-slides-container li h2 {
+    margin: 40px auto 0;
+    width: 80%;
+}
+.quote .orbit-slides-container li p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.competence {
+    padding-bottom: 0;
+}
+.competence p {
+    margin-top: 1em;
+}
+.contact.contact-section {
+    padding-top: 200px;
+}
+.contact-persons {
+    padding-top: 60px;
+}
+.contact-persons .grid:last-child {
+    float: left;
+}
+.contact {
+    padding-top: 0;
+}
+.phone {
+    margin: 0;
+    padding: 0 1em 1em;
+}
+.about-me {
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+.vcf {
+    display: inline-block;
+    margin-top: 24px;
+    position: relative;
+}
+.contact .grid ul, .contact-caption {
+    padding-top: 3em;
+}
+.contact-caption-small {
+    margin-bottom: 0;
+    width: 100%;
+}
+.contact-caption-small li {
+    margin: 0 1em;
+}
+.contact-caption-small .icon-envelope-alt {
+    display: inline-block;
+    font-size: 1.7em !important;
+    position: relative;
+    top: -2px;
+}
+.map img {
+    height: auto;
+    width: 100%;
+}
+.map-container {
+    padding-bottom: 0;
+    padding-top: 0.2em;
+}
+.map {
+    padding: 0;
+}
+.map {
+    padding: 0 0.2em;
+}
+.map .simple-tip {
+    background: none repeat scroll 0 0 #E7735B;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 40px;
+    left: 50%;
+    line-height: 42px;
+    margin-left: -55px;
+    margin-top: -50px;
+    position: absolute;
+    text-indent: 4px;
+    text-transform: uppercase;
+    top: 50%;
+    width: 110px;
+}
+.map .simple-tip:before {
+    border-color: #E7735B rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 10px;
+    bottom: -20px;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+}
+.map .simple-tip i {
+    color: #B44028;
+    margin: 0 4px;
+    transition: color 0.25s ease 0s;
+}
+.map .simple-tip:hover i {
+    color: #FFFFFF;
+}
+.map .tip {
+    background: none repeat scroll 0 0 #E7735B;
+    color: #FFFFFF;
+    left: 50%;
+    margin-top: -75px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 48%;
+    width: 300px;
+}
+.map .tip:before {
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid #E7735B;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    content: "";
+    height: 0;
+    left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+.map .tip ul {
+    margin: 1.3em 0 1em;
+}
+.map .tip ul li {
+    margin: 1em 0 1em 4em;
+}
+.contact .circle-alt-2 {
+    margin: 0 4%;
+}
+.icon-Kryss {
+    float: right;
+    font-size: 1.5em;
+}
+.blogg-jobb-headline {
+    padding-bottom: 50px;
+}
+a.more-posts {
+    bottom: 0;
+    display: inline-block;
+    left: 50%;
+    margin-left: -29px;
+    position: relative;
+    text-align: center;
+}
+a.more-posts .icon-Plus_alt {
+    background: none repeat scroll 0 0 #3C4042;
+    border: 1px solid #3C4042;
+    border-radius: 1000px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    padding: 16px;
+    transition: all 0.2s ease-in-out 0s;
+}
+a.more-posts .icon-Plus_alt:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #3C4042;
+}
+.blogg:hover .icon-stack {
+    opacity: 1;
+}
+.blogg {
+    overflow: hidden;
+}
+.blogg-grid .columns {
+    padding-bottom: 0.234375em;
+    padding-left: 0.234375em;
+    padding-right: 0;
+}
+.blogg-caption .columns {
+    padding: 0 0.234375em;
+}
+.utvalda-projekt.blogg-grid {
+    padding-right: 0;
+}
+.blogg-grid {
+    padding-left: 0;
+    padding-right: 0.234375em;
+}
+.blogg-page {
+    padding-top: 0;
+}
+.blogg-page .inline-list {
+    display: inline-block;
+}
+.blogg-top-img {
+    padding: 0;
+}
+.blogg-top-img img {
+    height: auto;
+    width: 100%;
+}
+.blogg-grid .blogg a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+}
+.blogg-grid .blogg a > img {
+    display: block;
+}
+.circle {
+    border: 1px solid #FFFFFF;
+    border-radius: 1000px;
+}
+.circle-alt-2 {
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
+    display: inline-block;
+    height: 60px;
+    padding: 12px;
+    transition: background 0.5s ease 0s;
+    width: 60px;
+}
+.circle-alt-2:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.circle-alt-2 .icon-light {
+    transition: color 0.5s ease 0s;
+}
+.circle-alt-2:hover .icon-light {
+    color: #3C4042;
+}
+.circle-img {
+    border-radius: 10000px;
+}
+.icon-stack {
+    opacity: 0.5;
+}
+.blogg-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    bottom: 4px;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    top: 0;
+    transition: background 0.5s ease 0s;
+}
+.utvalda-projekt .blogg-caption {
+    bottom: 0;
+    left: 0;
+}
+.blogg-caption h4 {
+    color: #FFFFFF;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin: 0 0 4px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.blogg-caption .pusher {
+    background: none repeat scroll 0 0 #FF0000;
+    display: inline-block;
+    height: 100%;
+    margin-right: -0.25em;
+    vertical-align: middle;
+    width: 0;
+}
+.blogg-caption .caption-center {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 80%;
+}
+.blogg-caption span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.2em;
+    margin: 0;
+    text-transform: uppercase;
+}
+.blogg a:hover .blogg-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.more-about-us a:hover .blogg-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.more-about-us h2 {
+    margin-bottom: 30px;
+}
+.blogg .icon-circle, .more-about-us .icon-circle {
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    left: 50%;
+    margin-left: -6px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transform: scale(0);
+    transition: all 0.25s ease 0s;
+}
+.blogg .icon-circle {
+    margin-top: 14px;
+}
+.blogg .icon-circle.circle-2, .more-about-us .icon-circle.circle-2 {
+    margin-left: -22px;
+}
+.blogg .icon-circle.circle-3, .more-about-us .icon-circle.circle-3 {
+    margin-left: 10px;
+}
+.blogg a:hover .icon-circle, .more-about-us a:hover .icon-circle {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.25s ease 0s;
+}
+.blogg .icon-ellipsis-horizontal, .more-about-us .icon-ellipsis-horizontal {
+    bottom: -42px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 46px;
+    font-weight: normal;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transform: scale(0);
+    transition: all 0.25s ease 0s;
+    width: 100%;
+}
+.blogg a:hover .icon-ellipsis-horizontal, .more-about-us a:hover .icon-ellipsis-horizontal {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.25s ease 0s;
+}
+.utvalda-projekt .large-6 {
+    margin: 0;
+    padding: 0.9375em;
+}
+.utvalda-projekt .large-6 h3 {
+    margin-top: 180px;
+}
+.bildspel-text-container {
+    display: table;
+    height: 100%;
+    left: 15%;
+    position: absolute;
+    top: 0;
+    width: 70%;
+    z-index: 1;
+}
+.bildspel-text-container h1 {
+    border: medium none;
+    color: #FFFFFF;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.icon-8x {
+    font-size: 8em;
+}
+.maps img {
+    width: 100%;
+}
+.grid {
+    margin: 0.9375em 0;
+}
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+.grid figure img {
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+.grid figcaption {
+    background: none repeat scroll 0 0 #E7735B;
+    color: #FFFFFF;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+.grid figcaption h4 {
+    color: #FFFFFF;
+    margin: 0 0 0.7em;
+    padding: 0;
+}
+.grid figcaption span:before {
+    content: "";
+}
+.cs-style-1 figcaption {
+    backface-visibility: hidden;
+    height: 100%;
+    opacity: 0;
+    text-align: center;
+    transition: -webkit-transform 0.3s ease 0s, opacity 0.3s ease 0s;
+    width: 100%;
+}
+.cs-style-1 figure:hover figcaption {
+    opacity: 1;
+    transform: translate(15px, 15px);
+}
+.cs-style-1 figcaption span {
+    display: inline-block;
+    opacity: 1;
+}
+.cs-style-1 li {
+    display: inline;
+    list-style-type: none;
+}
+.more-about-us h2, .more-about-us p {
+    color: #FFFFFF;
+}
+.more-about-us h4 {
+    display: inline-block;
+    margin-top: 1em;
+    width: 100%;
+}
+.more-about-us .blogg-caption {
+    border-radius: 1000px;
+    height: 223px;
+    left: 0;
+    margin: 0 auto;
+    width: 223px;
+}
+.facts-block .columns {
+    padding: 0.4375em;
+}
+.work-process .large-1 {
+    margin-top: 4.5em;
+    width: 12.4%;
+}
+.work-process i {
+    color: #99B6BE;
+}
+p.contact {
+    margin-bottom: 0;
+}
+h4.contact {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0.7em;
+}
+.footer {
+    color: #FFFFFF;
+    display: block;
+    height: 400px;
+    overflow: hidden;
+    padding: 0;
+}
+.tip .icon-li, .footer .icon-li {
+    font-size: 1.5em;
+    top: -0.3em;
+}
+.footer-bkg {
+    background: none repeat scroll 0 0 #3C4042;
+    float: left;
+    height: 1000px;
+    width: 45%;
+}
+.footer .row {
+    display: inline-block;
+    left: 50%;
+    margin-left: -407px;
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+}
+.footer .row .large-6 {
+    height: 300px;
+    margin-top: 3em;
+}
+.footer .large-6 .inline-list {
+    bottom: 0;
+    position: absolute;
+}
+.footer .contact-city {
+    font-weight: bold;
+}
+.footer .contact li {
+    margin-bottom: 1em;
+}
+.footer .icons-ul li {
+    text-transform: uppercase;
+}
+.footer .icons-ul li i {
+    backface-visibility: hidden;
+    transition: color 0.5s ease 0s;
+}
+.footer .icons-ul li i:before {
+    backface-visibility: hidden;
+}
+.footer .icons-ul li:hover i {
+    color: #888888;
+}
+.tilted {
+    background: none repeat scroll 0 0 #444545;
+    position: relative;
+    width: 55%;
+}
+.tilted:after {
+    border-left: 210px solid #3C4042;
+    border-top: 400px solid rgba(0, 0, 0, 0);
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+.blogg {
+    padding: 0 0 0.9375em;
+}
+.utvalda-projekt .large-6 {
+    padding: 0;
+}
+.hero {
+    position: relative;
+}
+.hero ul {
+    display: none;
+}
+.hero video {
+    display: block;
+    width: 100%;
+}
+.hero .fallback {
+    height: auto;
+    width: 100%;
+}
+.hero .fallback img {
+    height: auto;
+    width: 100%;
+}
+.hero .video-overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.icon-footer {
+    bottom: 1.0625em;
+    position: absolute;
+}
+.icon-footer a {
+    margin-right: 18px;
+}
+.hi-icon {
+    border-radius: 50%;
+    color: #FFFFFF !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 0 !important;
+    height: 60px !important;
+    position: relative !important;
+    text-align: center !important;
+    width: 60px !important;
+    z-index: 1 !important;
+}
+figure .hi-icon {
+    margin: 0 8px;
+}
+.hi-icon:after {
+    -moz-box-sizing: content-box !important;
+    border-radius: 50% !important;
+    content: "" !important;
+    height: 100% !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    width: 100% !important;
+}
+.hi-icon:before {
+    display: block !important;
+    font-size: 34px !important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 64px !important;
+    text-transform: none;
+}
+.hi-icon:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.05) !important;
+    color: #FFFFFF !important;
+    transform: scale(0.93) !important;
+}
+.hi-icon:hover:after {
+    animation: 1.3s ease-out 75ms normal none 1 sonarEffect;
+}
+figure .hi-icon:hover:after {
+    animation: 1.3s ease-out 75ms normal none 1 sonarEffectAlt;
+}
+.hi-icon {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1) !important;
+    transition: -moz-transform 0.1s ease-out 0s, background 0.2s ease 0s !important;
+}
+.hi-icon:after {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) !important;
+    left: 0 !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+    transform: scale(0.9) !important;
+    z-index: -1 !important;
+}
+.social-container {
+    display: inline-block;
+    height: auto;
+    padding-top: 1.8em;
+    position: relative;
+    width: 100%;
+}
+@media only screen and (min-width: 900px) and (max-width: 1210px) {
+h1 {
+    font-size: 4.8em !important;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 899px) {
+h1 {
+    font-size: 3.8em !important;
+}
+}
+@media only screen and (max-width: 1000px) {
+.more-about-us .blogg-caption {
+    display: none;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+.facts-block .djur, .facts-block .vanster-hoger, .facts-block .skola {
+    display: none;
+}
+.facts-block .revenue h5 {
+    line-height: 1.2em;
+    margin-left: 13%;
+    width: 74%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 783px) {
+.facts-block .djur, .facts-block .vanster-hoger, .facts-block .skola, .facts-block .revenue-mobile {
+    display: none;
+}
+.facts-block .banan {
+    margin-top: 50px;
+}
+.facts-block .coffee-cup {
+    margin-top: -264px;
+    top: -87px;
+    width: 25%;
+}
+.facts-block .coffe {
+    margin-top: -112px;
+}
+.facts-block .coffe h5 {
+    line-height: 1.2em;
+}
+.facts-block .revenue {
+    margin-top: -376px;
+}
+.facts-block .apple-pc {
+    float: right;
+    margin-top: -325px;
+}
+}
+@media only screen and (max-width: 468px) {
+.how-we-work h4 {
+    font-size: 0.9em;
+}
+.grid {
+    height: 18em;
+}
+.facts-block .kontakt, .facts-block .anstallda-persons, .facts-block .revenue {
+    opacity: 1;
+}
+}
+@media only screen and (max-width: 767px) {
+.work-process .large-1 {
+    margin-top: 0;
+    transform: rotate(90deg);
+    width: 100%;
+}
+.footer {
+    background: none repeat scroll 0 0 #3C4042;
+    height: auto;
+}
+.footer .row {
+    left: 0;
+    margin: 10px 0 20px;
+    position: relative;
+}
+.footer .row .large-6 {
+    height: auto;
+}
+.footer .large-6 .inline-list {
+    position: relative;
+}
+.map {
+    margin-top: 20px;
+}
+.map .tip {
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+    width: 95%;
+}
+.map .tip:after {
+    left: 50%;
+    margin-left: -25px;
+    top: -200px;
+}
+.map .tip:before {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #E7735B;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 10px;
+    left: 50%;
+    top: -10px;
+}
+.map .tip ul {
+    margin: 0.5em;
+    padding: 1em 0;
+}
+}
+@media only screen and (max-width: 768px) {
+h1 {
+    font-size: 2em !important;
+}
+.hero h4 {
+    width: auto;
+}
+.icon-footer {
+    bottom: 0;
+    position: relative;
+}
+.work-process-mobile {
+    padding: 0;
+}
+section {
+    padding: 2em 0;
+}
+.kontakt figcaption {
+    display: none;
+}
+h4.contact {
+    font-size: 1em;
+}
+.contact-section {
+    padding-top: 100px !important;
+}
+.hero .video {
+    display: none;
+}
+.hero .h-center {
+    width: 90%;
+}
+.om-oss .logotyp, .blogg-jobb .logotyp, .kontakt .logotyp, .start .logotyp {
+    font-size: 1em;
+}
+.fallback .portrait {
+    display: block;
+}
+.revenue-mobile {
+    top: 0 !important;
+}
+.project-page .h-center > h2 {
+    font-size: 1.3em !important;
+    margin-bottom: 0.4em !important;
+    margin-top: 0 !important;
+}
+.project-page h1 {
+    font-size: 2em !important;
+}
+.project-page .channels-box {
+    margin-top: 0 !important;
+}
+.blogg-caption .caption-center {
+    width: 96% !important;
+}
+.blogg-caption h4 {
+    font-size: 1.5em !important;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.hero .video {
+    display: none;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+.h-center h1 {
+    font-size: 3.25em !important;
+}
+.start .logotyp {
+    font-size: 1.75em;
+}
+}
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+.fallback .portrait {
+    display: block;
+}
+.fallback .landscape {
+    display: none;
+}
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+.footer .row {
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.footer-bkg {
+    width: 40%;
+}
+.footer-bkg.tilted {
+    width: 60%;
+}
+.project-page .post-text {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 100% !important;
+}
+.quote .orbit-slides-container li h2 {
+    font-size: 1.2em;
+    width: 100%;
+}
+p.contact {
+    font-size: 0.8em !important;
+}
+}
+@media only screen and (max-width: 768px) {
+.fallback .landscape {
+    display: block;
+}
+.fallback .portrait {
+    display: none;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.quote .orbit-slides-container li h2 {
+    font-size: 2em;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.caption-center {
+    width: 96% !important;
+}
+.blogg-caption h4 {
+    font-size: 1.5em !important;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+.work-process .large-1 {
+    margin-top: 3em;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+.work-process .large-3:hover .text-overlay {
+    display: none;
+}
+.fallback .landscape-medium {
+    display: block;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+.device-contact {
+    display: block;
+}
+.kontakt figcaption {
+    display: none;
+}
+}
+@media not all {
+.facts-block .korv h5 {
+    margin-left: 10%;
+    width: 80%;
+}
+}

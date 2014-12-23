@@ -1,0 +1,782 @@
+/* GENERAL CHANGES */
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/opensans-semibold-webfont.eot');
+    src: url('fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_slablight';
+    src: url('fonts/robotoslab-light-webfont.eot');
+    src: url('fonts/robotoslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/robotoslab-light-webfont.woff') format('woff'),
+         url('fonts/robotoslab-light-webfont.ttf') format('truetype'),
+         url('fonts/robotoslab-light-webfont.svg#roboto_slablight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('fonts/robotoslab-regular-webfont.eot');
+    src: url('fonts/robotoslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/robotoslab-regular-webfont.woff') format('woff'),
+         url('fonts/robotoslab-regular-webfont.ttf') format('truetype'),
+         url('fonts/robotoslab-regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('fonts/brandon_blk-webfont.eot');
+    src: url('fonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandon_blk-webfont.woff') format('woff'),
+         url('fonts/brandon_blk-webfont.ttf') format('truetype'),
+         url('fonts/brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon_grotesqueblack_italic';
+    src: url('fonts/brandon_blk_it-webfont.eot');
+    src: url('fonts/brandon_blk_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandon_blk_it-webfont.woff') format('woff'),
+         url('fonts/brandon_blk_it-webfont.ttf') format('truetype'),
+         url('fonts/brandon_blk_it-webfont.svg#brandon_grotesqueblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('fonts/brandon_med-webfont.eot');
+    src: url('fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandon_med-webfont.woff') format('woff'),
+         url('fonts/brandon_med-webfont.ttf') format('truetype'),
+         url('fonts/brandon_med-webfont.svg#brandon_grotesquemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fin Fonts */
+
+<!--
+/* GENERAL */
+
+
+body {
+  margin: 0;
+}
+
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'brandon_grotesqueblack';
+    font-size: 113px;
+    font-weight: normal;
+    line-height: 120px;
+    padding-top: 8px;
+}
+
+h2 {
+  font-family: 'roboto_slabregular';
+  margin:0px;
+  text-align:center;
+  font-weight: normal;
+  color:#404040;
+  font-size:42px;
+}
+
+header h2{
+  display:none;
+}
+
+h2 span {
+  color:#4b9900;
+}
+
+h3 {
+	font-family: 'roboto_slablight';
+  margin:0px;
+  text-align:center;
+	font-weight: normal;
+	color:#1d1d1b;
+	font-size:28px;
+}
+
+h4 {
+    color: #505050;
+    font-family: 'brandon_grotesqueblack';
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 30px;
+}
+
+h5 {
+  font-family: 'brandon_grotesqueblack';
+  font-weight: normal;
+  color:#ffffff;
+  font-size:18px;
+  width:156px;
+  padding-left: 20px;
+}
+
+strong {
+  font-family: 'open_sanssemibold';
+  font-weight: normal;
+}
+
+a {
+	color: #4b9900;
+}
+
+
+p {
+	font-size: 18px;
+  text-align: center;
+	font-family:'open_sanslight';
+	color:#404040;
+}
+
+
+ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  *display: 0;
+  zoom: 1;  
+}
+
+section {
+    margin:32px 0 0 0;
+    width: 100%;
+}
+
+
+.content {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* FIN General */
+
+
+/* HEADER */
+header{
+height:725px;
+margin: 0 auto;
+display: inline-block;
+overflow: hidden;
+width: 100%;
+}
+
+
+header ul {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+header ul + ul {
+    display: inline-block;
+    padding-left: 590px;
+    text-align: right;
+}
+
+header ul li{
+padding-left:0px;
+}
+
+header ul li + li{
+padding-left:8px;
+}
+
+.layer {
+    color: #FFFFFF;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 340px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 1024px;
+}
+
+video{
+   display: block;
+   width: 100%;
+}
+
+
+.fallback {
+    height: auto;
+    width: 100%;
+}
+
+
+.fallback .tablet, .fallback .mobile {
+    display: none;
+}
+
+
+
+nav{
+    width:1000px;
+    margin:auto;
+}
+
+nav ul {
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'roboto_slabregular';
+    font-size: 0px;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+nav ul li {
+    padding-left: 0;
+    line-height: 28px;
+    font-size: 18px;
+    padding-right: 40px;
+    width: auto;
+
+}
+
+nav ul li + li{
+  padding-left:40px;
+  padding-right:40px;
+  border-left: 2px solid white;
+  width:auto;
+}
+
+nav a {
+  color:#ffffff;
+  text-decoration:none;
+  text-shadow:0 4px 6px rgba(0, 0, 0, 0.14);
+}
+
+nav a:hover{
+  color:#ffffff;
+  text-decoration:underline;
+  text-shadow:0 4px 6px rgba(255, 255, 255, 0.14);
+}
+
+nav a:active{
+  color:#ffffff;
+  text-decoration:underline;
+  text-shadow:0 4px 6px rgba(255, 255, 255, 0.14);  
+}
+
+/* Fin Header */
+
+/* LINEAS BUSINESS */
+
+#lineas_business p {
+    margin-top: 0;
+    padding-top: 14px;
+    padding-bottom: 40px;
+    text-align: center
+}
+
+#lineas_business ul { 
+text-align:center; 
+padding:0px;
+}
+
+
+#lineas_business li { 
+text-align:center; 
+width: 218px;
+margin-left:0px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+vertical-align:top;
+}
+
+#lineas_business li + li {
+    margin-left: 38px;
+}
+
+
+/* Fin lineas business */
+
+/* NOSOTROS */
+
+#nosotros {
+    text-align: center;
+}
+
+#nosotros img{
+padding-top:14px;
+}
+
+#nosotros .content p{
+float:left;
+} 
+
+
+#nosotros p{
+text-align:left;
+width:480px;
+margin-left:0px;
+}
+
+#nosotros p + p{
+text-align:left;
+width:480px;
+margin-left:40px;
+}
+
+
+
+/* FIN Nosotros */
+
+/* Portfolio */
+
+#portfolio h5 {
+  font-family: 'brandon_grotesqueblack';
+  font-weight: normal;
+  color: #fff;
+  font-size: 18px;
+  float: left;
+  text-align: left;
+  width: 155px;
+  margin: 0px 0px 8px 0px;
+  padding: 0;
+}
+
+#portfolio ul li p {
+  font-size: 12px;
+  font-family: 'open_sansregular';
+  color: #fff;
+  float: left;
+  width: 155px;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+}
+
+#portfolio ul {
+  font-size: 0;
+}
+
+#portfolio li {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}   
+
+
+#portfolio .content > ul > li {
+  width: 100%;
+  height: 201px; 
+  margin-bottom: 6px;       
+}   
+
+#portfolio .content > ul > li + li {
+  height: 410px;  
+}
+
+#portfolio .content .fila1 li {
+  width: 195px;
+  height: 201px; 
+  background: #6ebe00;
+  padding: 21px 20px;
+}
+
+#portfolio .content .fila1 li img {
+  display: block;  
+}
+
+#portfolio .content .fila1 li + li {
+  width: 396px;
+  margin-left: 6px;
+  background: #4ba000;
+}
+
+#portfolio .content .fila1 li + li:nth-child(odd) {
+  background: #378c00;  
+}
+
+#portfolio .content .fila1 li + li h5 {
+  margin: 0px 0px 8px 46px;
+}
+
+#portfolio .content .fila1 li + li p {
+  margin: 0px 0px 0px 46px;  
+}
+
+#portfolio .content .fila1 li + li img {
+  float: left;
+}
+
+#portfolio .content .fila2  li {
+  height: 408px;
+  margin-left: 0;   
+  width: 195px;
+  background: #4ba000; 
+  padding: 21px 20px; 
+}
+
+#portfolio .content .fila2 > ul > li > h5 {
+  margin-top: 47px;
+}
+
+#portfolio .content .fila2  li img {
+  display: block;    
+}
+
+#portfolio .content .fila2  li + li {
+  width: 804px; 
+  background: transparent;
+  padding: 0;
+}
+
+#portfolio .content .fila2  li + li li {
+  width: 195px;
+  height: 201px;
+  background: #6ebe00; 
+  margin-left: 6px;
+  margin-bottom: 6px; 
+  padding: 21px 20px;
+} 
+
+#portfolio .content .fila2  li + li li:nth-child(even) {
+  width: 396px;
+  background: #378c00;   
+}
+
+#portfolio .content .fila2  li + li li:nth-child(even) img {
+  float: left;
+}
+
+#portfolio .content .fila2  li + li li:nth-child(even) h5 {
+  margin: 0px 0px 8px 46px;
+}
+
+#portfolio .content .fila2  li + li li:nth-child(even) p {
+  margin: 0px 0px 0px 46px;   
+}
+
+#portfolio .content .fila2  li + li li:last-child {
+  width: 195px; 
+  background: #e6e6e6;  
+}
+
+#portfolio .content .fila2  li + li li:last-child h5 {
+  font-size: 48px;
+  color: #505050;
+  margin: 45px 0 0 0;
+  text-align: center;
+}
+
+#portfolio .content .fila2  li + li li:nth-child(4) {
+  background: #4ba000;  
+}
+
+#portfolio .content .hide h5 {
+  visibility: hidden;
+  display: none;
+  opacity:0;
+  transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+  -webkit-transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+  -moz-transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+}
+
+#portfolio .content .hide p {
+  visibility: hidden;
+  display: none;
+  opacity:0;
+  transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+  -webkit-transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+  -moz-transition:visibility 0s linear 0.5s,opacity 0.5s linear;   
+}
+
+#portfolio .content .hide:hover h5 {
+  display: inline-block;
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+#portfolio .content .hide:hover p {
+  display: inline-block;
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+#portfolio .content .hide:hover img {
+  display: none;
+  visibility: hidden; 
+  opacity:0;
+  transition:visibility 0s linear 0.5s,opacity 0.5s linear;   
+}
+
+
+/* FIN Portfolio */
+
+
+/* Portfolio */
+
+
+
+/* FIN Portfolio */
+
+
+/* Slider */
+
+
+#slider {
+    -moz-box-sizing: border-box;
+    background: url("../img/banner_bottom.png") no-repeat fixed center top rgba(0, 0, 0, 0);
+    height: 717px;
+    margin: 142px auto 0;
+    padding: 427px 0 0;
+}
+
+#slider img {
+  width: 100%;
+}
+
+#slider .content {
+  background-color: #4b9900;
+  opacity:0.90;
+  width: 100%;
+}
+
+#slider p {
+  font-family: 'brandon_grotesqueblack_italic';
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top:72px;
+
+}
+
+#slider p + p {
+  font-family: 'brandon_grotesquemedium';
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: normal;
+  text-align: right;
+  padding-bottom:68px;
+  padding-top:0px;
+}
+
+/* FIN Slider */
+
+
+/* Contacto */
+
+#contact {
+    background: none repeat scroll 0 0 #848484;
+    margin: 0 auto;
+    padding-top: 32px;
+    text-align: center;
+}
+
+#contact h2 {
+  color:#ffffff;
+}
+
+
+#contact h3 {
+  color:#ffffff;
+}
+
+#contact p {
+  color:#ffffff;
+}
+
+
+.column_1 {
+    padding-left: 40px;
+    width: 48%;
+}
+.column_2{
+width:48%;
+}
+
+form {
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'open_sansbold';
+    font-size: 16px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+input {
+    background-color: #DBDADB;
+    border: 0 none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: block;
+    height: 25px;
+    margin-bottom: 14px;
+    margin-top: 7px;
+    padding: 10px 16px;
+    width: 409px;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+textarea {
+    background-color: #DBDADB;
+    border: 0 none;
+    border-radius: 5px;
+    display: block;
+    height: 134px;
+    margin-bottom: 34px;
+    margin-top: 7px;
+    width: 440px;
+}
+
+button {
+    background-color: #E6E5E5;
+    border: 0 none;
+    border-radius: 6px;
+    color: #505050;
+    font-family: 'brandon_grotesqueblack';
+    font-size: 32px;
+    height: 43px;
+    margin-left: 238px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 165px;
+}
+
+/*Fin conatcto */
+
+/* Map */
+
+#map {
+    height: 436px;
+    background: url("../img/mapa_donde_estamos.png") no-repeat;
+    margin: 0 auto;
+}
+
+/*Fin map */
+
+/* Footer */
+
+
+footer {
+  height:83px;    
+  background: none repeat scroll 0 0 #454545;
+  text-align: center;
+}
+
+footer ul {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0;
+    padding: 25px 0 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+footer ul li {
+  font-family:'open_sansregular';
+  color:#ffffff;
+  font-size:14px;
+}
+
+
+footer ul li{
+padding-left:0px;
+}
+
+footer ul  li + li{
+padding-left:25px;
+}
+
+footer ul + ul{
+padding-left:20px;
+}
+
+footer ul + ul li{
+padding-left:0px;
+}
+
+footer ul + ul li{
+padding-left:8px;
+}
+
+/*Fin footer */
+
+
+/* Fin contacto */
+
+
+
+
